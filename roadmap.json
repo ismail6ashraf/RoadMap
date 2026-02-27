@@ -1,0 +1,148 @@
+{
+  "specializations": [
+    {
+      "name": "HTML",
+      "description": "The foundation of web development, HTML provides the structure for web pages.",
+      "courses": [
+        {
+          "name": "HTML Basics",
+          "description": "Learn the fundamentals of HTML, including tags, elements, and basic page structure.",
+          "videoUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+          "lectures": ["Introduction to HTML", "HTML Tags and Elements", "Forms and Inputs", "Semantic HTML"]
+        },
+        {
+          "name": "HTML5 and CSS3 Fundamentals",
+          "description": "Master HTML5 features and CSS3 styling techniques for modern web development.",
+          "videoUrl": "https://www.youtube.com/watch?v=y098h1XHlN0",
+          "lectures": ["HTML5 New Features", "CSS3 Selectors", "Responsive Design", "Animations and Transitions"]
+        },
+        {
+          "name": "Semantic HTML",
+          "description": "Understand the importance of semantic HTML for accessibility and SEO.",
+          "videoUrl": "https://www.youtube.com/watch?v=kg0n-H1NQ9g",
+          "lectures": ["What is Semantic HTML?", "Header and Navigation", "Main Content Areas", "Footer and Sections"]
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "description": "Cascading Style Sheets control the presentation and layout of web pages.",
+      "courses": [
+        {
+          "name": "CSS Fundamentals",
+          "description": "Build a strong foundation in CSS with practical examples and projects.",
+          "videoUrl": "https://www.youtube.com/watch?v=yToY-ACS-Yo",
+          "lectures": ["CSS Syntax", "Selectors and Specificity", "Box Model", "Positioning"]
+        },
+        {
+          "name": "Advanced CSS",
+          "description": "Dive deep into advanced CSS concepts and techniques.",
+          "videoUrl": "https://www.youtube.com/watch?v=FEnR86ya2ZQ",
+          "lectures": ["Flexbox Layout", "CSS Grid", "CSS Variables", "Advanced Selectors"]
+        },
+        {
+          "name": "CSS Grid and Flexbox",
+          "description": "Master modern layout techniques with CSS Grid and Flexbox.",
+          "videoUrl": "https://www.youtube.com/watch?v=9zBsdzdE4sM",
+          "lectures": ["Introduction to Flexbox", "Grid Basics", "Complex Layouts", "Responsive Grids"]
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "description": "A programming language that enables interactive web pages and is essential for front-end development.",
+      "courses": [
+        {
+          "name": "JavaScript Basics",
+          "description": "Learn the core concepts of JavaScript programming.",
+          "videoUrl": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+          "lectures": ["Variables and Data Types", "Functions", "Objects and Arrays", "DOM Manipulation"]
+        },
+        {
+          "name": "ES6 for Everyone",
+          "description": "Master modern JavaScript features introduced in ES6 and beyond.",
+          "videoUrl": "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
+          "lectures": ["Arrow Functions", "Promises and Async/Await", "Modules", "Destructuring"]
+        },
+        {
+          "name": "JavaScript: The Complete Guide",
+          "description": "Comprehensive JavaScript course covering all aspects of the language.",
+          "videoUrl": "https://www.youtube.com/watch?v=3籽f4o_pF9w",
+          "lectures": ["Advanced Functions", "Object-Oriented Programming", "Error Handling", "Testing"]
+        }
+      ]
+    },
+    {
+      "name": "React",
+      "description": "A popular JavaScript library for building user interfaces, especially single-page applications.",
+      "courses": [
+        {
+          "name": "React for Beginners",
+          "description": "Get started with React and build your first components.",
+          "videoUrl": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+          "lectures": ["React Basics", "Components and Props", "State Management", "Hooks"]
+        },
+        {
+          "name": "React Official Tutorial",
+          "description": "Follow the official React documentation and examples.",
+          "videoUrl": "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+          "lectures": ["Thinking in React", "Lists and Keys", "Forms", "Lifting State Up"]
+        },
+        {
+          "name": "Advanced React",
+          "description": "Advanced React patterns and best practices.",
+          "videoUrl": "https://www.youtube.com/watch?v=6IED7RwnGr4",
+          "lectures": ["Context API", "Custom Hooks", "Performance Optimization", "Testing React Apps"]
+        }
+      ]
+    },
+    {
+      "name": "Vue.js",
+      "description": "A progressive JavaScript framework for building user interfaces.",
+      "courses": [
+        {
+          "name": "Vue.js Fundamentals",
+          "description": "Learn the basics of Vue.js and start building Vue applications.",
+          "videoUrl": "https://www.youtube.com/watch?v=1_nmVJG5lqU",
+          "lectures": ["Vue Instance", "Directives", "Components", "Vue Router"]
+        },
+        {
+          "name": "Vue.js 3 Masterclass",
+          "description": "Master Vue.js 3 with advanced features and patterns.",
+          "videoUrl": "https://www.youtube.com/watch?v=FXDq7R0L4Z8",
+          "lectures": ["Composition API", "Vue 3 Features", "State Management", "Testing Vue Apps"]
+        },
+        {
+          "name": "Nuxt.js for Beginners",
+          "description": "Build server-side rendered Vue applications with Nuxt.js.",
+          "videoUrl": "https://www.youtube.com/watch?v=9I0QaVN2kK0",
+          "lectures": ["Nuxt Basics", "Pages and Routing", "Data Fetching", "Deployment"]
+        }
+      ]
+    },
+    {
+      "name": "Tools and Workflow",
+      "description": "Essential tools for modern front-end development, including version control and build tools.",
+      "courses": [
+        {
+          "name": "Git and GitHub",
+          "description": "Master version control with Git and collaborate on GitHub.",
+          "videoUrl": "https://www.youtube.com/watch?v=apGV9Kg7ics",
+          "lectures": ["Git Basics", "Branching and Merging", "GitHub Workflow", "Pull Requests"]
+        },
+        {
+          "name": "Webpack Fundamentals",
+          "description": "Learn to bundle and optimize your JavaScript applications with Webpack.",
+          "videoUrl": "https://www.youtube.com/watch?v=IZGNcSu7lLw",
+          "lectures": ["Module Bundling", "Loaders and Plugins", "Configuration", "Optimization"]
+        },
+        {
+          "name": "Command Line Basics",
+          "description": "Essential command line skills for developers.",
+          "videoUrl": "https://www.youtube.com/watch?v=oxuRxtrO2Ag",
+          "lectures": ["Basic Commands", "File Operations", "Package Managers", "Scripting"]
+        }
+      ]
+    }
+  ]
+}

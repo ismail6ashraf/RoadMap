@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Development Roadmap</title>
+    
+    <!-- Google Fonts - Professional Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome - Professional Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-code"></i>
+                <span>DevRoadmap</span>
+            </a>
+            
+            <!-- Tab Navigation -->
+            <div class="tab-nav">
+                <button class="tab-btn active" data-tab="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </button>
+                <button class="tab-btn" data-tab="about">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About</span>
+                </button>
+                <button class="tab-btn" data-tab="login">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tab Content Container -->
+    <main class="main-content">
+        
+        <!-- HOME TAB -->
+        <section id="home" class="tab-content active">
+            <header class="hero">
+                <div class="hero-background">
+                    <div class="hero-pattern"></div>
+                </div>
+                <div class="hero-content">
+                    <h1>Front-End Development Roadmap</h1>
+                    <p class="subtitle">Your complete guide to becoming a professional front-end developer</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Specializations</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">18</span>
+                            <span class="stat-label">Courses</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">60+</span>
+                            <span class="stat-label">Lectures</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container">
+                <div id="roadmap-container" class="roadmap-container">
+                    <!-- Content will be dynamically rendered here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT TAB -->
+        <section id="about" class="tab-content">
+            <header class="hero about-hero">
+                <div class="hero-background">
+                    <div class="hero-pattern"></div>
+                </div>
+                <div class="hero-content">
+                    <h1>About Our Platform</h1>
+                    <p class="subtitle">Your comprehensive guide to mastering front-end development</p>
+                </div>
+            </header>
+
+            <div class="container">
+                <section class="about-section">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h2>Our Mission</h2>
+                        <p>We are dedicated to providing high-quality, structured learning paths for aspiring front-end developers. Our roadmap covers all essential and advanced concepts, from basic HTML to modern frameworks like React and Vue.js.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h2>What You'll Learn</h2>
+                        <ul class="about-list">
+                            <li><i class="fas fa-check"></i> HTML fundamentals and semantic markup</li>
+                            <li><i class="fas fa-check"></i> CSS styling, layouts, and responsive design</li>
+                            <li><i class="fas fa-check"></i> JavaScript programming and DOM manipulation</li>
+                            <li><i class="fas fa-check"></i> Modern front-end frameworks and libraries</li>
+                            <li><i class="fas fa-check"></i> Development tools and workflow optimization</li>
+                            <li><i class="fas fa-check"></i> Best practices for production-ready code</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-card full-width">
+                        <h2>Why Choose Our Roadmap?</h2>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-sitemap"></i>
+                                </div>
+                                <h3>Structured Learning</h3>
+                                <p>Follow a logical progression from basics to advanced topics</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-layer-group"></i>
+                                </div>
+                                <h3>Comprehensive Coverage</h3>
+                                <p>All essential front-end technologies and concepts</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h3>Practical Focus</h3>
+                                <p>Emphasis on real-world applications and projects</p>
+                            </div>
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <h3>Regular Updates</h3>
+                                <p>Content updated to reflect current industry standards</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- LOGIN TAB -->
+        <section id="login" class="tab-content">
+            <header class="hero login-hero">
+                <div class="hero-background">
+                    <div class="hero-pattern"></div>
+                </div>
+                <div class="hero-content">
+                    <h1>Welcome Back</h1>
+                    <p class="subtitle">Sign in to continue your learning journey</p>
+                </div>
+            </header>
+
+            <div class="container">
+                <div class="login-wrapper">
+                    <div class="login-card">
+                        <div class="login-header">
+                            <div class="login-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h2>Sign In</h2>
+                            <p>Enter your credentials to access your account</p>
+                        </div>
+                        
+                        <form id="login-form" class="login-form">
+                            <div class="form-group">
+                                <label for="email">
+                                    <i class="fas fa-envelope"></i>
+                                    Email Address
+                                </label>
+                                <div class="input-wrapper">
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                    <span class="input-icon"><i class="fas fa-envelope"></i></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="password">
+                                    <i class="fas fa-lock"></i>
+                                    Password
+                                </label>
+                                <div class="input-wrapper">
+                                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                                    <span class="input-icon"><i class="fas fa-lock"></i></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-options">
+                                <label class="checkbox-wrapper">
+                                    <input type="checkbox" name="remember">
+                                    <span class="checkmark"></span>
+                                    Remember me
+                                </label>
+                                <a href="#" class="forgot-link">Forgot password?</a>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">
+                                <i class="fas fa-sign-in-alt"></i>
+                                Sign In
+                            </button>
+                        </form>
+                        
+                        <div class="login-footer">
+                            <p>Don't have an account? <a href="#" class="signup-link">Create one</a></p>
+                        </div>
+                        
+                        <div class="social-login">
+                            <p>Or continue with</p>
+                            <div class="social-buttons">
+                                <button class="social-btn google">
+                                    <i class="fab fa-google"></i>
+                                </button>
+                                <button class="social-btn github">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                                <button class="social-btn linkedin">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Course Detail Modal -->
+    <div id="course-modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div id="course-details">
+                <!-- Course details will be dynamically rendered here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <i class="fas fa-code"></i>
+                <span>DevRoadmap</span>
+            </div>
+            <p>&copy; 2024 Front-End Development Roadmap. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#"><i id="git" class="fab fa-github"></i></a>
+                <a href="#"><i id="linked" class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
